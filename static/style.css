@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef3fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0056d2;
+}
+
+h2 {
+    color: #003e99;
+    border-bottom: 2px solid #0056d2;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.results-card {
+    background: #f4f8ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.results-card table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.results-card td {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e6f2;
+}
+
+.results-card tr td:first-child {
+    font-weight: bold;
+    color: #0056d2;
+    width: 40%;
+}
+
+.transactions {
+    margin-top: 30px;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions th {
+    text-align: left;
+    padding: 10px;
+    background-color: #0056d2;
+    color: white;
+}
+
+.transactions td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.transactions tr:nth-child(even) {
+    background-color: #f8faff;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    background: #0056d2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #003e99;
+}
+
+.error {
+    background-color: #ffeaea;
+    color: #c00;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}

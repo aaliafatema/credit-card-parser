@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card Parser</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📄 Credit Card Statement Parser</h1>
+        <p>Upload your PDF statement and extract key details instantly.</p>
+
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <div class="upload-box">
+                <input type="file" name="pdf_file" accept="application/pdf" required>
+                <button type="submit">Upload & Parse</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

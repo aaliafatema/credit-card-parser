@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parsed Credit Card Statement</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Credit Card Statement Summary</h1>
+
+        {% if result.error %}
+            <div class="error">{{ result.error }}</div>
+        {% else %}
+            <div class="results-card">
+                <h2>Statement Details</h2>
+                <table>
+                    <tr><td>Card Brand</td><td>{{ result.card_brand or 'N/A' }}</td></tr>
+                    <tr><td>Card Number</td><td>{{ result.card_last4_masked or 'N/A' }}</td></tr>
+                    <tr><td>Payment Due Date</td><td>{{ result.payment_due_date or 'N/A' }}</td></tr>
+                    <tr><td>Statement Period</td><td>
+                        {% if result.statement_period %}
+                            {{ result.statement_period.start or 'N/A' }} – {{ result.statement_period.end or 'N/A' }}
+                        {% else %}
+                            N/A
+                        {% endif %}
+                    </td></tr>
+                    <tr><td>Transactions Extracted</td><td>{{ result.transactions_extracted_count or 0 }}</td></tr>
+                </table>
+            </div>
+
+            {% if result.transactions %}
+                <div class="transactions">
+                    <h2>💰 Transactions</h2>
+                    <table>
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                        </tr>
+                        {% for txn in result.transactions %}
+                        <tr>
+                            <td>{{ txn.date }}</td>
+                            <td>{{ txn.description }}</td>
+                            <td>{{ txn.amount }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            {% endif %}
+        {% endif %}
+
+        <a class="back-btn" href="/">⬅ Upload Another PDF</a>
+    </div>
+</body>
+</html>

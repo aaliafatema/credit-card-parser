@@ -1,0 +1,246 @@
+{
+  "_source_file": "icici-1.pdf",
+  "_ocr_used": false,
+  "card_brand": "ICICI Bank",
+  "card_last4": "9008",
+  "card_last4_masked": "XXXX-XXXX-XXXX-9008",
+  "statement_period": {
+    "start": null,
+    "end": null
+  },
+  "payment_due_date": "to avoid penal fees and interest charges.",
+  "new_balance": null,
+  "transactions_extracted_count": 46,
+  "transactions": [
+    {
+      "date": "24/08/2018",
+      "description": "P82IHOB1347PHS02B7 PAYTM RETAIL -PG-ONLINE NOIDA IN 18",
+      "amount": "600.00"
+    },
+    {
+      "date": "24/08/2018",
+      "description": "P82IHOB1347PHS02B5 PAYTM RETAIL -PG-ONLINE NOIDA IN 18",
+      "amount": "600.00"
+    },
+    {
+      "date": "09/09/2018",
+      "description": "P82II991416BQU09GY PAYTM.COM WALLET PG NOIDA IN 11",
+      "amount": "350.00"
+    },
+    {
+      "date": "10/09/2018",
+      "description": "P82IIAB1600WYU0CNL PAYTM.COM WALLET PG NOIDA IN 1",
+      "amount": "27.00"
+    },
+    {
+      "date": "10/09/2018",
+      "description": "P64IIA31421LVX01QC PAYTM.COM WALLET PG NOIDA IN 11",
+      "amount": "350.00"
+    },
+    {
+      "date": "10/09/2018",
+      "description": "P82IIAB1600WYU0B34 PAYTM.COM WALLET PG NOIDA IN 18",
+      "amount": "600.00"
+    },
+    {
+      "date": "13/09/2018",
+      "description": "P82IIDB1405UHC031O PAYTM RETAIL -PG-ONLINE NOIDA IN 13",
+      "amount": "420.00"
+    },
+    {
+      "date": "22/09/2018",
+      "description": "P64IIMB1403FR401JD PAYTM RETAIL -PG-ONLINE NOIDA IN 14",
+      "amount": "452.00"
+    },
+    {
+      "date": "22/09/2018",
+      "description": "P80IIMB1601R1H043N PAYTM.COM WALLET PG NOIDA IN 23",
+      "amount": "750.00"
+    },
+    {
+      "date": "22/09/2018",
+      "description": "P64IIMB1403FR401JI PAYTM RETAIL -PG-ONLINE NOIDA IN 18",
+      "amount": "600.00"
+    },
+    {
+      "date": "22/08/2018",
+      "description": "85215228234833124885840 FLIPKART PAYMENTS BANGALORE IN",
+      "amount": "0.00"
+    },
+    {
+      "date": "23/08/2018",
+      "description": "75503728236022356211540 MEGAMEALS PUNE IN",
+      "amount": "23.00"
+    },
+    {
+      "date": "23/08/2018",
+      "description": "75503728236022356304337 MEGAMEALS PUNE IN 1",
+      "amount": "41.00"
+    },
+    {
+      "date": "24/08/2018",
+      "description": "75503728237022379344012 MEGAMEALS PUNE IN 2",
+      "amount": "83.00"
+    },
+    {
+      "date": "27/08/2018",
+      "description": "75503728240022457241432 MEGAMEALS PUNE IN 1",
+      "amount": "28.00"
+    },
+    {
+      "date": "27/08/2018",
+      "description": "75503728240022451886604 MEGAMEALS PUNE IN 2",
+      "amount": "83.00"
+    },
+    {
+      "date": "28/08/2018",
+      "description": "75503728241022467120120 MEGAMEALS PUNE IN 1",
+      "amount": "28.00"
+    },
+    {
+      "date": "28/08/2018",
+      "description": "75503728241022475533819 MEGAMEALS PUNE IN 1",
+      "amount": "55.00"
+    },
+    {
+      "date": "29/08/2018",
+      "description": "75503728242022490986298 MEGAMEALS PUNE IN 1",
+      "amount": "28.00"
+    },
+    {
+      "date": "29/08/2018",
+      "description": "75503728242022490359165 MEGAMEALS PUNE IN 1",
+      "amount": "60.00"
+    },
+    {
+      "date": "30/08/2018",
+      "description": "75503728243022524331973 MEGAMEALS PUNE IN",
+      "amount": "23.00"
+    },
+    {
+      "date": "30/08/2018",
+      "description": "75503728243022518336467 MEGAMEALS PUNE IN 2",
+      "amount": "83.00"
+    },
+    {
+      "date": "31/08/2018",
+      "description": "75503728244022544090723 MEGAMEALS PUNE IN",
+      "amount": "23.00"
+    },
+    {
+      "date": "31/08/2018",
+      "description": "75503728244022543996433 MEGAMEALS PUNE IN 2",
+      "amount": "83.00"
+    },
+    {
+      "date": "02/09/2018",
+      "description": "75503728246022595628189 SWEET BASKET HYDERABAD IN 12",
+      "amount": "615.00"
+    },
+    {
+      "date": "10/09/2018",
+      "description": "75503728254022796306972 MEGAMEALS PUNE IN 1",
+      "amount": "64.00"
+    },
+    {
+      "date": "10/09/2018",
+      "description": "75503728254022798228182 MEGAMEALS PUNE IN",
+      "amount": "22.00"
+    },
+    {
+      "date": "11/09/2018",
+      "description": "75503728255022830145245 MEGAMEALS PUNE IN 1",
+      "amount": "28.00"
+    },
+    {
+      "date": "11/09/2018",
+      "description": "75503728255022823797770 MEGAMEALS PUNE IN 1",
+      "amount": "73.00"
+    },
+    {
+      "date": "12/09/2018",
+      "description": "75503728256022846894082 MEGAMEALS PUNE IN 1",
+      "amount": "28.00"
+    },
+    {
+      "date": "12/09/2018",
+      "description": "75503728256022849260505 MEGAMEALS PUNE IN 1",
+      "amount": "64.00"
+    },
+    {
+      "date": "13/09/2018",
+      "description": "Reversal of Fuel Surcharge",
+      "amount": "10.01"
+    },
+    {
+      "date": "13/09/2018",
+      "description": "75503728257022870094343 MEGAMEALS PUNE IN",
+      "amount": "23.00"
+    },
+    {
+      "date": "14/09/2018",
+      "description": "75503728258022893355456 MEGAMEALS PUNE IN",
+      "amount": "23.00"
+    },
+    {
+      "date": "14/09/2018",
+      "description": "75503728258022892263792 MEGAMEALS PUNE IN 2",
+      "amount": "119.00"
+    },
+    {
+      "date": "14/09/2018",
+      "description": "75503728258022899174547 MEGAMEALS PUNE IN",
+      "amount": "18.00"
+    },
+    {
+      "date": "17/09/2018",
+      "description": "75503728261022972964074 MEGAMEALS PUNE IN 1",
+      "amount": "56.00"
+    },
+    {
+      "date": "17/09/2018",
+      "description": "75503728261022975197250 MEGAMEALS PUNE IN 1",
+      "amount": "64.00"
+    },
+    {
+      "date": "18/09/2018",
+      "description": "75503728262022999272526 MEGAMEALS PUNE IN 1",
+      "amount": "28.00"
+    },
+    {
+      "date": "18/09/2018",
+      "description": "75503728262022997562373 MEGAMEALS PUNE IN 1",
+      "amount": "55.00"
+    },
+    {
+      "date": "19/09/2018",
+      "description": "75503728263023018864458 MEGAMEALS PUNE IN",
+      "amount": "23.00"
+    },
+    {
+      "date": "19/09/2018",
+      "description": "75503728263023024241436 MEGAMEALS PUNE IN 1",
+      "amount": "64.00"
+    },
+    {
+      "date": "20/09/2018",
+      "description": "75503728264023052489104 MEGAMEALS PUNE IN 1",
+      "amount": "28.00"
+    },
+    {
+      "date": "20/09/2018",
+      "description": "75503728264023046916352 MEGAMEALS PUNE IN 1",
+      "amount": "64.00"
+    },
+    {
+      "date": "21/09/2018",
+      "description": "75503728265023065436141 MEGAMEALS PUNE IN",
+      "amount": "23.00"
+    },
+    {
+      "date": "21/09/2018",
+      "description": "75503728265023073023360 MEGAMEALS PUNE IN 3",
+      "amount": "137.00"
+    }
+  ]
+}

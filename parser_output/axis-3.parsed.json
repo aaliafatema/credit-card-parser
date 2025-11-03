@@ -1,0 +1,21 @@
+{
+  "_source_file": "axis-3.pdf",
+  "_ocr_used": false,
+  "card_brand": "Axis Bank",
+  "card_last4": null,
+  "card_last4_masked": null,
+  "statement_period": {
+    "start": null,
+    "end": null
+  },
+  "payment_due_date": "Statement Generation Date",
+  "new_balance": "₹8159.89",
+  "transactions_extracted_count": 1,
+  "transactions": [
+    {
+      "date": "17/09/2023",
+      "description": "CALX PAPER PRIVATE LIMDELHIIN RESTAURANTS",
+      "amount": "850.00"
+    }
+  ]
+}

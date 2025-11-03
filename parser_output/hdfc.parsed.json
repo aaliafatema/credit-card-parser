@@ -1,0 +1,26 @@
+{
+  "_source_file": "hdfc.pdf",
+  "_ocr_used": false,
+  "card_brand": "HDFC Bank",
+  "card_last4": "3458",
+  "card_last4_masked": "XXXX-XXXX-XXXX-3458",
+  "statement_period": {
+    "start": null,
+    "end": null
+  },
+  "payment_due_date": "Total Dues Minimum Amount Due",
+  "new_balance": null,
+  "transactions_extracted_count": 2,
+  "transactions": [
+    {
+      "date": "26/02/2023",
+      "description": "PAYTM ECOMMERCE NOIDA",
+      "amount": "2.00"
+    },
+    {
+      "date": "26/02/2023",
+      "description": "PAYTM ECOMMERCE NOIDA",
+      "amount": "2.00"
+    }
+  ]
+}
